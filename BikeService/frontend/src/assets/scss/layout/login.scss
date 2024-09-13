@@ -1,0 +1,35 @@
+@import "~bootstrap/scss/bootstrap";
+
+.container mt-5 {
+  background-color: #757575; /* gray-600 */
+}
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  background-color: #fff; /* White background for the form */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 20px; /* Center the logo vertically and add spacing below */
+  width: 150px; /* Adjust the width of the logo */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make the logo oval-shaped */
+}
+
+.form-label {
+  font-weight: bold; /* Make form labels bold */
+}
+
+.form-control {
+  margin-bottom: 15px; /* Add spacing between form inputs */
+}
